@@ -113,7 +113,7 @@ GEM
       method_source (~> 0.8.1)
       slop (~> 3.4)
     rack (1.5.2)
-    rake (10.3.2)
+    rake (13.0.1)
     resource_kit (0.0.5)
       activesupport (>= 3.0)
       addressable (~> 2.3.6)
@@ -171,7 +171,10 @@ DEPENDENCIES
   kitchen-vagrant
   knife-solo (~> 0.4.1)
   librarian-chef (~> 0.0.4)
-  rake
+  rake (>= 12.3.3)
   rspec
   serverspec
   test-kitchen
+
+BUNDLED WITH
+   1.17.3
