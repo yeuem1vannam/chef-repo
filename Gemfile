@@ -7,6 +7,6 @@ gem "librarian-chef", "~> 0.0.4"
 
 gem "test-kitchen"
 gem "kitchen-vagrant"
-gem "kitchen-digitalocean"
+gem "kitchen-digitalocean", ">= 0.8.0"
 gem "serverspec"
 gem "rspec"
